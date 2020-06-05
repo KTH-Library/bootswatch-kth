@@ -51,11 +51,11 @@ This will result in the dist/v3 and dist/v4 directories, both holding a folder n
 
 To modify the BS v 3 variant:
 
-- edit the [](v3/kth/bootswatch.less) and [](v3/kth/variables.less) files and then issue "make", then use the resulting files in the dist/v3 directory
+- edit the [](/v3/kth/bootswatch.less) and [](/v3/kth/variables.less) files and then issue "make", then use the resulting files in the dist/v3 directory
 
 To modify the BS v 4 variant:
 
-- edit the [](v4/dist/kth/_bootswatch.scss) and [](v4/dist/kth/_variables.scss) files and then issue "make", then use the resulting files in the dist/v4 directory
+- edit the [](/v4/dist/kth/_bootswatch.scss) and [](/v4/dist/kth/_variables.scss) files and then issue "make", then use the resulting files in the dist/v4 directory
 
 See the [Makefile](Makefile) for available build targets
 
