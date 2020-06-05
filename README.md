@@ -19,7 +19,7 @@ This KTH styled Bootswatch theme tries to conform with colors and fonts at https
 
 # Usage
 
-Use the stylesheet and assets provided in [](/dist/v3/kth) or [](/dist/v4/kth) respectively.
+Use the stylesheet and assets provided in [](dist/v3/kth) or [](dist/v4/kth) respectively.
 
 Follow instructions given for integrating style assets for the given components or frameworks.
 
