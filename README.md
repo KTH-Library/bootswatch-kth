@@ -1,3 +1,9 @@
+<!-- badges: start -->
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+<!-- badges: end -->
+
 # bootswatch-kth
 
 Custom KTH styled BS v 3 and 4 theme building on Thomas Park's MIT-licensed Bootswatch themes (https://github.com/thomaspark/bootswatch)
