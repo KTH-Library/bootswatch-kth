@@ -1,2 +1,3 @@
 - [Bootswatch KTH based on BS v3](v3/index.html)
 - [Bootswatch KTH based on BS v4](v4/index.html)
+- [Bootswatch KTH based on BS v5](v5/index.html) 
