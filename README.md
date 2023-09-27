@@ -6,7 +6,7 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 
 # bootswatch-kth
 
-Custom KTH styled BS v 3 and 4 theme building on Thomas Park's MIT-licensed Bootswatch themes (https://github.com/thomaspark/bootswatch)
+Custom KTH styled BS v 3 and 4 and 5 theme building on Thomas Park's MIT-licensed Bootswatch themes (https://github.com/thomaspark/bootswatch)
 
 ## Background
 
@@ -22,10 +22,11 @@ This KTH styled Bootswatch theme tries to conform with colors and fonts at https
 
 - [KTH BS v 3 Bootswatch Theme](https://KTH-Library.github.io/bootswatch-kth/v3)
 - [KTH BS v 4 Bootswatch Theme](https://KTH-Library.github.io/bootswatch-kth/v4)
+- [KTH BS v 5 Bootswatch Theme](https://KTH-Library.github.io/bootswatch-kth/v5)
 
 # Usage
 
-Use the stylesheet and assets provided in [](dist/v3/kth) or [](dist/v4/kth) respectively.
+Use the stylesheet and assets provided in [](dist/v3/kth) or [](dist/v4/kth) or [](dist/v5/kth) respectively.
 
 Follow instructions given for integrating style assets for the given components or frameworks.
 
@@ -45,23 +46,27 @@ Example resources for styling if using R/shiny/shinydashboard/flexdashboard like
 
 # Developers
 
-With `make` and `docker` installed these BS v3 and v4 versions of the customized Bootswatch KTH theme can be built locally. 
+With `make` and `docker` installed these BS v3 and v4 and v5 versions of the customized Bootswatch KTH theme can be built locally. 
 
 Steps:
 
 		make
 
-This will result in the dist/v3 and dist/v4 directories, both holding a folder named "kth" with the results.
+This will result in the dist/v3 and dist/v4 and dist/v5 directories, both holding a folder named "kth" with the results.
 
 ## Modifications
 
-To modify the BS v 3 variant:
+To modify the BS v3 variant:
 
 - edit the [LESS bootswatch file](/v3/kth/bootswatch.less) and [LESS variables file](/v3/kth/variables.less) files and then issue "make", then use the resulting files in the dist/v3 directory
 
-To modify the BS v 4 variant:
+To modify the BS v4 variant:
 
 - edit the [SASS bootswatch file](/v4/dist/kth/_bootswatch.scss) and [SASS variables file](/v4/dist/kth/_variables.scss) files and then issue "make", then use the resulting files in the dist/v4 directory
+
+To modify the BS v5 variant:
+
+- edit the [SASS bootswatch file](/v5/dist/kth/_bootswatch.scss) and [SASS variables file](/v5/dist/kth/_variables.scss) files and then issue "make", then use the resulting files in the dist/v5 directory
 
 See the [Makefile](Makefile) for available build targets
 
