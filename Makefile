@@ -47,5 +47,8 @@ browse-v4:
 browse-v5:
 	firefox dist/v5/kth/index.html &
 
+docs-v5:
+	cp -r dist/v5/kth/* docs/v5
+
 .PHONY: v3 v4 v5
 
